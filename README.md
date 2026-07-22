@@ -1,30 +1,35 @@
-# Patrick Dev — Product & Systems Engineer
+# Patrick Dev — AI Agent, Platform & Full-stack Engineer
 
-I build applied-AI systems, durable products, and privacy infrastructure around explicit
-boundaries, failure behavior, and reproducible evidence.
+I design, build, and deploy AI agents and product systems across the complete delivery path:
+model/runtime integration, tool execution, backend boundaries, web interfaces, infrastructure,
+CI/CD, observability, and release evidence.
 
 [Engineering portfolio](https://patrickdev-it.github.io/) ·
 [LinkedIn](https://www.linkedin.com/in/patrickdev-it/) ·
 [Email](mailto:jobs@patrickdev.it)
 
+## Engineering roles
+
+| Role | What I engineer | Core stack |
+|---|---|---|
+| **AI Agent Engineer** | Local and provider-backed agent runtimes, typed tool contracts, bounded execution, fallback, evaluation, memory/context flows, and traceable outcomes | Python, TypeScript, llama.cpp/GGUF, WebSocket/HTTP, Pydantic, provider adapters, deterministic test doubles, evaluation corpora |
+| **Platform Engineer** | Reproducible environments, container delivery, multi-OS CI/CD, infrastructure automation, security gates, artifact provenance, health checks, and rollback paths | Docker/OCI, GitHub Actions, Linux, Windows, Terraform, Ansible, Helm, SBOM, dependency and secret scanning |
+| **Full-stack Engineer** | Accessible web products with durable workflows, authenticated APIs, authorization, persistence, concurrency control, background jobs, and production-quality testing | TypeScript, React, Next.js, Python APIs, PostgreSQL/libSQL, MongoDB, RBAC, Playwright, accessibility and performance testing |
+
 ## Selected work
 
-| Project | Engineering case | Current evidence |
-|---|---|---|
-| **[Cowork Prompt Enhancer](https://github.com/PatrickDev-it/cowork-prompt-enhancer)** | Local-first intent compiler with provider-independent execution, authenticated protocol boundaries, deterministic fallback, and versioned evaluation | [`v1.0.0`](https://github.com/PatrickDev-it/cowork-prompt-enhancer/releases/tag/v1.0.0) with tests, SBOM, checksums, provenance, and benchmark records |
-| **[Sistemista](https://github.com/PatrickDev-it/sistemista)** | Model-assisted system operations with fail-closed classification, bounded commands, verification predicates, recovery, and redacted audit trails | Public alpha `0.1.0a1`; multi-OS CI is green, while host execution remains explicitly non-sandboxed |
-| **[AutoBlog CMS](https://github.com/PatrickDev-it/AutoBlog-CMS)** | Editorial workflow system with database sessions, workspace RBAC, immutable revisions, concurrency control, durable jobs, and bounded AI/media operations | [Release candidate](https://github.com/PatrickDev-it/AutoBlog-CMS/pull/3) with green quality, security, accessibility, E2E, and build gates |
-| **[Authenticated Privacy Proxy](https://github.com/PatrickDev-it/VPN)** | Containerized Mitmproxy–Privoxy–Tor chain with authentication, policy enforcement, DNS controls, and portable host automation | Main-branch CI and security scans are green; deployment security remains operator-dependent |
+| Project | Engineering evidence |
+|---|---|
+| **[Cowork Prompt Enhancer](https://github.com/PatrickDev-it/cowork-prompt-enhancer)** | Released AI intent compiler with provider-independent execution, authenticated protocol boundaries, deterministic fallback, versioned evaluation, SBOM, provenance, and [`v1.0.0`](https://github.com/PatrickDev-it/cowork-prompt-enhancer/releases/tag/v1.0.0). |
+| **[SysOps Agent](https://github.com/PatrickDev-it/sysops-agent)** | Public-alpha local operations agent with fail-closed classification, bounded commands, verification predicates, recovery loops, redacted audit trails, and green Windows/Linux gates. Host execution is explicitly non-sandboxed. |
+| **[AutoBlog CMS](https://github.com/PatrickDev-it/AutoBlog-CMS)** | Full-stack editorial [release candidate](https://github.com/PatrickDev-it/AutoBlog-CMS/pull/3) with database sessions, workspace RBAC, immutable revisions, conflict-safe editing, durable jobs, E2E, accessibility, security, and build evidence. |
+| **[Authenticated Privacy Proxy](https://github.com/PatrickDev-it/VPN)** | Containerized Mitmproxy–Privoxy–Tor chain with authenticated ingress, policy enforcement, DNS controls, host automation, and green CI/security scans; deployment security remains operator-dependent. |
 
-## Engineering standard
+## Operating standard
 
-- Claims carry a workload, environment, method, limitation, and reproduction path.
-- Identity, capability, and data boundaries are enforced server-side and tested negatively.
-- Retries require idempotency; asynchronous work owns recovery and duplicate delivery.
-- Releases promote immutable artifacts with dependency, provenance, and rollback evidence.
-- Local-first and privacy claims state every network and operator-controlled boundary.
+- Claims include their environment, method, limitation, and reproduction path.
+- Model output and external providers terminate at typed, tested, observable boundaries.
+- Releases promote immutable artifacts with security, provenance, recovery, and rollback evidence.
 
-The [portfolio cases](https://patrickdev-it.github.io/#selected-work) provide the fastest review path.
-I am based in Rome, Italy and available for product, systems, applied-AI, and platform engineering work.
-
-This profile uses no external statistics widgets, tracking pixels, or generated activity claims.
+Based in Rome, Italy; available for AI agent, platform, and full-stack product engineering work.
+This profile uses no tracking widgets, pixels, or generated activity claims.
