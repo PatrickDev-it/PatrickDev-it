@@ -1,74 +1,78 @@
 # Patrick Dev — Product & Systems Engineer
 
-I build secure AI tooling, full-stack products, reproducible ML systems, and portable infrastructure.
-My work is designed to be reviewed through explicit invariants, executable evidence, and documented
-operational trade-offs—not feature claims alone.
+I design software around explicit invariants, failure behavior and measurable evidence. My strongest work
+sits at the boundary between applied AI, product engineering, security and operable systems—not around
+framework count or feature volume.
 
-[Review the engineering portfolio](https://patrickdev-it.github.io) ·
-[Connect on LinkedIn](https://www.linkedin.com/in/patrickdev-it/) ·
+[Engineering portfolio](https://patrickdev-it.github.io) ·
+[Flagship release](https://github.com/PatrickDev-it/cowork-prompt-enhancer/releases/tag/v1.0.0) ·
+[LinkedIn](https://www.linkedin.com/in/patrickdev-it/) ·
 [Email](mailto:jobs@patrickdev.it)
 
-## Engineering portfolio
+## Flagship: Cowork Prompt Enhancer
 
-| Product | Portfolio responsibility | Evidence being built |
-|---|---|---|
-| **Prompt Enhancer** | Systems and applied-AI engineering | provider contracts, deterministic fallback, protocol security, semantic evaluation, and local/offline execution |
-| **[AutoBlog CMS](https://github.com/PatrickDev-it/AutoBlog-CMS)** | Product and full-stack engineering | identity, RBAC, immutable revisions, optimistic concurrency, safe AI/media boundaries, and end-to-end verification |
-| **[Product Image Classifier](https://github.com/PatrickDev-it/Product-image-categorizer)** | Scientific ML engineering | reproducible data lineage, calibrated evaluation, model cards, error analysis, and portable inference |
-| **[Multi-tenant Loyalty Platform](https://github.com/PatrickDev-it/Electronic-Invoice-Management)** | Backend reliability engineering | tenant isolation, idempotent workflows, durable jobs, auditability, and recovery behavior |
+[Cowork Prompt Enhancer](https://github.com/PatrickDev-it/cowork-prompt-enhancer) is a local-first
+intent-to-specification compiler for executing AI systems. It treats model output as an unreliable
+dependency and makes provider behavior, fallback, resource use and evaluation observable.
 
-The two flagship products—Prompt Enhancer and AutoBlog CMS—are currently passing through structured
-release-hardening RFCs. Public release claims and profile pinning follow verification, not development intent.
+| Engineering concern | Implemented evidence |
+|---|---|
+| Provider independence | deterministic mock, supervised local inference and OpenAI-compatible adapters behind one typed contract |
+| Protocol security | versioned WebSocket schemas, loopback default, single-use HMAC challenge for remote exposure and bounded frames |
+| Failure containment | queue limits, per-session concurrency, cancellation, reconnect without duplicate execution and deterministic fallback |
+| Capability safety | advertised file operations plus canonical confinement beneath the session root |
+| Evaluation | versioned 64-case corpus, raw records, environment metadata and reproducible baseline/compiler comparisons |
+| Release engineering | immutable `v1.0.0`, SBOM, dependency inventory, checksums, provenance and benchmark evidence |
 
-## Supporting infrastructure work
+On the published eight-case local subset, structural validity moved from **0.333 to 0.792** and the
+executability rubric from **0.725 to 0.975**. Explicit-requirement recall moved from **1.000 to 0.917**;
+that trade-off and the lexical methodology are published rather than hidden. The complete release gate
+passes **53 Bun tests, 79 pytest tests and 9 integration tests** with zero known dependency findings.
 
-**[Authenticated Privacy Proxy Stack](https://github.com/PatrickDev-it/VPN)** explores containerized network
-services, policy enforcement, host automation, infrastructure-as-code, and portable deployment boundaries.
+[Read the architecture](https://github.com/PatrickDev-it/cowork-prompt-enhancer/blob/main/docs/architecture.md) ·
+[Inspect evaluation evidence](https://github.com/PatrickDev-it/cowork-prompt-enhancer/tree/main/evaluation/results) ·
+[Run the three-minute mock path](https://github.com/PatrickDev-it/cowork-prompt-enhancer#three-minute-mock-quickstart)
 
-## How I engineer
+## Product engineering: AutoBlog CMS 2.0
 
-```text
-Problem and measurable outcome
-            ↓
-Architecture, invariants, and rejected alternatives
-            ↓
-Vertical implementation with protected boundaries
-            ↓
-Unit, contract, integration, security, and E2E evidence
-            ↓
-One immutable artifact promoted across environments
-            ↓
-Observable deployment, rollback, and documented residual risk
-```
+[AutoBlog CMS](https://github.com/PatrickDev-it/AutoBlog-CMS) is a full-stack editorial release candidate
+built around one durable application core: database sessions, workspace-scoped RBAC, immutable revisions,
+optimistic concurrency, review transitions, leased publication jobs, bounded media and explicit AI suggestions.
 
-My default operating principles are:
+The candidate records **19 unit, 25 integration, 10 E2E, 6 accessibility, 5 visual, 2 direct performance
+tests and 6 Lighthouse runs**. Measured lab budgets include 0 CLS, 138.6/216.2 KiB initial JavaScript for
+marketing/workspace, and Lighthouse accessibility/SEO medians of 1.00.
 
-- evidence before claims;
-- contracts before providers;
-- authentication and authorization at every mutation boundary;
-- one business-logic path across local, demo, and production environments;
-- reproducible builds and fail-closed CI gates;
-- explicit failure modes, rollback procedures, and limitations;
-- infrastructure portability without unverified multi-cloud claims.
+It is intentionally not presented as released: historical provider credentials require owner rotation,
+and the public runtime still needs durable libSQL, scheduling and anonymous demo access. Source evidence is
+available in [PR #3](https://github.com/PatrickDev-it/AutoBlog-CMS/pull/3); pinning follows a green protected
+merge and verified `v2.0.0`, not implementation intent.
 
-## Technical focus
+## Engineering judgment I want reviewed
 
-- **Product systems:** TypeScript, React, Next.js, API and domain design, PostgreSQL, MongoDB.
-- **Applied AI:** provider abstraction, local inference, structured outputs, evaluation, and failure containment.
-- **ML engineering:** Python, TensorFlow, reproducible experiments, calibration, and inference packaging.
-- **Platform engineering:** OCI containers, GitHub Actions, Terraform, Ansible, Helm, and observability contracts.
-- **Security and reliability:** RBAC, tenant isolation, idempotency, supply-chain controls, and recovery testing.
+- **Architecture:** application policy and domain invariants precede database, cloud and AI adapters.
+- **Reliability:** retries require idempotency; asynchronous work owns leases, recovery and duplicate delivery.
+- **Security:** identity, capability and workspace context are enforced at server boundaries, including negative tests.
+- **Evaluation:** every metric carries workload, environment, method, limitations and a reproduction command.
+- **Operations:** releases promote immutable artifacts and document health, rollback, provenance and residual risk.
+- **Scope:** a modular monolith is the default until measured constraints justify distribution.
 
-## Current release queue
+## Additional systems
 
-1. **Prompt Enhancer:** semantic benchmark, secure transport contract, reviewer-friendly provider modes, and release packaging.
-2. **AutoBlog CMS:** coherent persistence, real authorization, editorial revisions, safe media/AI operations, and guided demo.
-3. **Product Image Classifier:** correction of unsupported claims, reproducible dataset/evaluation pipeline, and model card.
-4. **Multi-tenant Loyalty Platform:** domain repositioning, strict TypeScript, tenant isolation, and reliable background work.
+- [Authenticated Privacy Proxy Stack](https://github.com/PatrickDev-it/VPN): containerized network policy,
+  host automation, infrastructure-as-code and reproducible smoke testing.
+- [Product Image Classifier](https://github.com/PatrickDev-it/Product-image-categorizer): scientific ML work
+  being hardened around data lineage, calibration, error slices and portable inference.
+- [Multi-tenant Loyalty Platform](https://github.com/PatrickDev-it/Electronic-Invoice-Management): backend
+  modernization focused on tenant isolation, idempotency, durable jobs, auditability and recovery.
 
-## Contact
+## Technical discussion
 
-Based in Rome, Italy. For engineering roles, product collaboration, or technical discussion,
-[connect on LinkedIn](https://www.linkedin.com/in/patrickdev-it/) or [send an email](mailto:jobs@patrickdev.it).
+The best interview starting points are failure semantics in the Prompt Enhancer protocol, evaluation bias
+in generative systems, or AutoBlog's revision/concurrency model. I am based in Rome, Italy and available for
+product, systems and platform engineering roles.
 
-This profile intentionally uses no external statistics widgets, tracking pixels, or generated activity claims.
+[Schedule the conversation by email](mailto:jobs@patrickdev.it) or
+[connect on LinkedIn](https://www.linkedin.com/in/patrickdev-it/).
+
+This profile uses no activity widgets, tracking pixels or generated contribution claims.
