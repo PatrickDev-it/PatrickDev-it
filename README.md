@@ -1,10 +1,11 @@
-# Patrick Dev — AI Agent, Platform & Full-stack Engineer
+# Patrick Simonetti (Patrick Dev) — AI Agent, Platform & Full-stack Engineer
 
-I design, build, and deploy AI agents and product systems across the complete delivery path:
+I work publicly as **Patrick Dev** and **PatrickDev-it**. I design, build, and deploy AI agents and product systems across the complete delivery path:
 model/runtime integration, tool execution, backend boundaries, web interfaces, infrastructure,
 CI/CD, observability, and release evidence.
 
 [Engineering portfolio](https://patrickdev-it.github.io/) ·
+[Engineering case studies](https://patrickdev-it.github.io/projects/) ·
 [LinkedIn](https://www.linkedin.com/in/patrickdev-it/) ·
 [Email](mailto:jobs@patrickdev.it)
 
@@ -20,10 +21,12 @@ CI/CD, observability, and release evidence.
 
 | Project | Engineering evidence |
 |---|---|
-| **[AI Prompt Optimizer](https://github.com/PatrickDev-it/ai-prompt-optimizer)** | Released project-aware AI intent compiler: select real codebase files, add Web Search or Deep Research, and use an always-on home workstation from any IDE terminal. Includes authenticated protocol boundaries, deterministic fallback, versioned evaluation, SBOM, provenance, and [`v1.0.0`](https://github.com/PatrickDev-it/ai-prompt-optimizer/releases/tag/v1.0.0). |
-| **[SysOps Agent](https://github.com/PatrickDev-it/sysops-agent)** | Public-alpha local operations agent with fail-closed classification, bounded commands, verification predicates, recovery loops, redacted audit trails, and green Windows/Linux gates. Host execution is explicitly non-sandboxed. |
-| **[AutoBlog CMS](https://github.com/PatrickDev-it/AutoBlog-CMS)** | Full-stack editorial [release candidate](https://github.com/PatrickDev-it/AutoBlog-CMS/pull/3) with database sessions, workspace RBAC, immutable revisions, conflict-safe editing, durable jobs, E2E, accessibility, security, and build evidence. |
-| **[Authenticated Privacy Proxy](https://github.com/PatrickDev-it/VPN)** | Containerized Mitmproxy–Privoxy–Tor chain with authenticated ingress, policy enforcement, DNS controls, host automation, and green CI/security scans; deployment security remains operator-dependent. |
+| **[AI Prompt Optimizer](https://patrickdev-it.github.io/projects/ai-prompt-optimizer/)** | Released project-aware AI intent compiler with authenticated protocol boundaries, deterministic fallback, versioned evaluation, SBOM, provenance, and [`v1.0.0`](https://github.com/PatrickDev-it/ai-prompt-optimizer/releases/tag/v1.0.0). [Repository](https://github.com/PatrickDev-it/ai-prompt-optimizer). |
+| **[SysOps Agent](https://patrickdev-it.github.io/projects/sysops-agent/)** | Public-alpha local operations agent with fail-closed classification, bounded commands, verification predicates, recovery loops, and redacted audit trails. [Repository](https://github.com/PatrickDev-it/sysops-agent). |
+| **[AutoBlog CMS](https://patrickdev-it.github.io/projects/autoblog-cms/)** | Full-stack editorial [release candidate](https://github.com/PatrickDev-it/AutoBlog-CMS/pull/3) with database sessions, workspace RBAC, immutable revisions, conflict-safe editing, durable jobs, E2E, accessibility, and security evidence. [Repository](https://github.com/PatrickDev-it/AutoBlog-CMS). |
+| **[Authenticated Privacy Proxy](https://patrickdev-it.github.io/projects/privacy-proxy/)** | Containerized Mitmproxy–Privoxy–Tor chain with authenticated ingress, policy enforcement, DNS controls, host automation, and green CI/security scans. [Repository](https://github.com/PatrickDev-it/VPN). |
+| **[Product Image Classifier](https://patrickdev-it.github.io/projects/image-classifier/)** | Scientific ML modernization scoped around reproducible lineage, calibrated evaluation, error slices, and portable inference; historical results require revalidation. [Repository](https://github.com/PatrickDev-it/Product-image-categorizer). |
+| **[Multi-tenant Loyalty Platform](https://patrickdev-it.github.io/projects/loyalty-platform/)** | Backend reliability modernization scoped around tenant isolation, idempotency, durable jobs, auditability, concurrency, and recovery. [Repository](https://github.com/PatrickDev-it/Electronic-Invoice-Management). |
 
 ## Operating standard
 
